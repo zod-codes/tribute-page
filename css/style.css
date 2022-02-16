@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica;
+}
+body {
+  background-color: rgb(245, 243, 243);
+}
+nav {
+  background-color: #333;
+  font-size: 12px;
+}
+nav > ul {
+  width: 900px;
+  background-color: green;
+  height: 40px;
+  margin: auto;
+}
+nav ul li {
+  display: inline-block;
+  padding: 12px;
+  background-color: red;
+  margin-top: auto;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.icon {
+  background-image: url("../images/3.svg");
+}
+.container {
+  width: 900px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25),
+    inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.content {
+  width: 90%;
+  border-bottom: 1px solid #cfcfcf;
+  margin-top: 1.5em;
+  margin: auto;
+  color: rgb(78, 78, 78);
+}
+.content > h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1.3em;
+  padding-bottom: 0.4em;
+}
+.content p {
+  line-height: 1.5em;
+  margin-bottom: 5em;
+}
+.content a {
+  text-decoration: none;
+  color: rgb(86, 173, 253);
+}
+.card {
+  width: 500px;
+  margin: 2em auto;
+  color: rgb(78, 78, 78);
+}
+.card h3 {
+  padding: 3px 0;
+  line-height: 1.8em;
+  font-size: 17px;
+}
+.cite {
+  color: #cfcfcf;
+  margin: 13px 0;
+}
+
+.footer {
+  text-align: center;
+  margin: 5em auto;
+  width: 900px;
+}
+.footContent {
+  width: 90%;
+  margin: auto;
+  border-top: 1px solid #cfcfcf;
+  padding-bottom: 2em;
+}
+.footContent h1 {
+  padding-top: 1em;
+  font-size: 30px;
+  font-weight: bold;
+}
+.footContent h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
